@@ -4,4 +4,4 @@ COPY . /app
 RUN pip install --no-cache-dir nltk
 RUN python -m nltk.downloader stopwords
 
-CMD ["python","app.py"]
+CMD ["python","main.py"]
